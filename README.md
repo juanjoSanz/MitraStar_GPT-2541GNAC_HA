@@ -31,3 +31,20 @@ device_tracker:
 
        
  3. **Restart** the home assistant service.
+ 
+ ## To-DO
+ 
+ Extend current compontent adding a sensor that retrieves Fiber Power Value (in DBm) 
+ 
+ I have a internet metric system that shows some instability, for that reason I have been thinking to take advantage of Movistar Router Fiber Power metrics in order to be able to get a better picture of connectivity.
+ 
+ 
+ 
+ [Router installation parameters url][http://192.168.1.1/installation_ontpw.html]
+ 
+ Parameters to parse:
+ ```
+<span class="sub">Router: <br>Conectado a Internet </span>
+
+<span class="sub">Potencia óptica recibida[dBm]: <br>-18.9962945488244</span>
+```
